@@ -1,0 +1,20 @@
+{
+  "name": "gh-actions-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "@types/node": "^20.14.2",
+    "@types/jest": "^29.5.12"
+  }
+}
