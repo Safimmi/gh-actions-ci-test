@@ -19,7 +19,7 @@ export class Inventory {
     if (this.products[productName]) {
       return this.products[productName].amount;
     } else {
-      return 'Product Not Found!';
+      return 'Make tests fail';
     }
   }
 
